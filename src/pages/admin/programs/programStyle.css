@@ -1,0 +1,167 @@
+#employeeList>header {
+    display: flex;
+    height: 10.66%;
+    margin-top: 20px;
+    align-items: center;
+    position: relative;
+}
+
+#employeeList {
+    margin: 20px;
+    width: 93.2%;
+    height: 81.6%;
+    background: white;
+    border-radius: 16px;
+    z-index: 3;
+    position: relative;
+}
+
+#employeeList>header>h2 {
+    font-style: normal;
+    font-weight: 600 !important;
+    font-size: 24px !important;
+    line-height: 36px;
+    color: #121212;
+    margin: 0 40px;
+}
+
+.headerOptions>#prev,
+.headerOptions>#next {
+    background: #f2f3f7;
+    border-radius: 6px;
+    border: none;
+    width: 32px;
+    margin: 0 4px;
+}
+
+.headerOptions>#prev:hover,
+.headerOptions>#next:hover {
+    background: #cdcdcd;
+    cursor: pointer;
+}
+
+.grid {
+    display: grid;
+}
+
+.lg\:grid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.btn_program {
+    position: relative;
+    width: 85%;
+    height: 203px;
+    background-color: #2b6777;
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.padding {
+    padding-left: 65px;
+    gap: 35px;
+    padding-top: 20px;
+}
+
+.n_ch {
+    top: 10%;
+    left: 8%;
+    position: absolute;
+    max-width: 80%;
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.name_ch {
+    top: 30%;
+    left: 8%;
+    position: absolute;
+    max-width: 30vh;
+    text-align: start;
+    font-weight: 400;
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.527);
+}
+
+.add_icon {
+    padding-top: 10px;
+    font-size: 60px;
+    color: white;
+}
+
+.card_body {
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: -100%;
+    position: absolute;
+    background: #0e293338;
+    backdrop-filter: blur(4px);
+    padding-top: 20px;
+    transition: 0.5s;
+    align-items: center;
+    text-align: center;
+}
+
+.btn_program:hover .card_body {
+    right: 0;
+}
+
+.card_title {
+    font-weight: 400;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.card_sub {
+    margin-top: 5px;
+    font-weight: 400;
+    font-size: 23px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.card_btn {
+    margin-top: 5px;
+    color: #0a4f62;
+    font-size: 16px;
+    background: #8dabae;
+    border-radius: 5px;
+    border: none;
+    padding: 7px 10px;
+    outline: none;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.card_icon {
+    position: relative;
+    font-size: 25px;
+    color: white;
+    top: 10%;
+    left: 85%;
+}
+
+.icon_sch {
+    padding-top: 111px;
+    padding-left: 28px;
+    position: absolute;
+}
+
+.sub_ch {
+    bottom:10px;
+    left: 38px;
+    position: absolute;
+    width: 30vh;
+    text-align: start;
+    font-weight: 500;
+    font-size: 18px;
+    color: white;
+}

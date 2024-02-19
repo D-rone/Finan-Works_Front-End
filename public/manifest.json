@@ -1,0 +1,8 @@
+{
+  "short_name": "Finan-works",
+  "name": "Finan-works : modern HR solution",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

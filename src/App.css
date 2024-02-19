@@ -1,0 +1,361 @@
+:root {
+  --body-font: "Poppins", sans-serif;
+  --normal-font-size: 20px;
+  --text-color: #666666;
+  --primary-color: #2b6777;
+  --title-color: #0e0e0e;
+  --title-font-size: 36px;
+}
+
+.login_wrapper *  {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.login button,
+.login input,
+.login body,
+.login main,
+.login section {
+  font-family: var(--body-font);
+}
+
+.login body {
+  color: var(--text-color);
+}
+
+.login h1,
+.login h2,
+.login h3 {
+  color: var(--title-color);
+  font-weight: 500;
+  font-size: 36px;
+}
+
+.login h4 {
+  position: relative;
+  font-size: 20px;
+  font-weight: 400;
+  color: #0e0e0e;
+  padding-top: 10px;
+}
+
+.login ul {
+  list-style: none;
+}
+
+.login p {
+  line-height: 1.7;
+}
+
+.login a {
+  text-decoration: none;
+}
+
+.login__img {
+  max-width: 100%;
+  border-radius: 40px 0px 0px 40px;
+  background-size: cover;
+}
+
+.setting {
+  position: fixed;
+  right: 1rem;
+  bottom: 1rem;
+}
+
+.button_setting {
+  background-color: #2b6777;
+  font-size: 25px;
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+  padding: 0.75rem;
+  display: inline-block;
+  border: #2b6777 0.001px solid;
+  margin: 2px;
+  cursor: pointer;
+  border-radius: 50%;
+  color: white;
+  opacity: 1;
+}
+
+.svg {
+  display: block;
+  vertical-align: middle;
+}
+
+.sidebar0 {
+  width: 0;
+}
+
+.text-white {
+  opacity: 1;
+  color: rgb(255 255 255);
+}
+
+.pb-2\.5 {
+  padding-bottom: 0.625rem;
+}
+
+.pl-4 {
+  padding-left: 1rem;
+}
+
+.gap-5 {
+  gap: 1.25rem;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.flexi {
+  display: flex;
+}
+
+.m-2 {
+  margin: 0.5rem;
+}
+
+.hover\:bg-light-gray:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(247 247 247);
+}
+
+.login element.style {
+  background-color: transparent;
+}
+
+.text-gray-700 {
+  --tw-text-opacity: 1;
+  color: rgb(55 65 81);
+}
+
+.md\:hover\:overflow-auto:hover {
+  overflow: scroll;
+}
+
+.bg_ {
+  background-color: #2b6777;
+}
+
+.md\:mr-6 {
+  margin-right: 1.5rem;
+}
+
+.p-2 {
+  padding: 1rem;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.relative {
+  position: relative;
+}
+
+.md\:static {
+  position: static;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.fixed {
+  position: fixed;
+}
+
+.p-1 {
+  padding: 0.25rem;
+}
+
+.gap-2 {
+  gap: 0.5rem;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.w-8 {
+  width: 2rem;
+}
+
+.h-8 {
+  height: 2rem;
+}
+
+.text-gray-400 {
+  opacity: 1;
+  color: rgb(156 163 175 / opacity=1);
+}
+
+.text-14 {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.ml-1 {
+  margin-left: 0.25rem;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.p-3 {
+  padding: 0.6rem;
+}
+
+button {
+  background-color: transparent;
+  background-image: none;
+  border: 1px solid transparent;
+}
+
+.w-2 {
+  width: 0.5rem;
+}
+
+.h-2 {
+  height: 0.5rem;
+}
+
+.inline-flex {
+  display: inline-flex;
+}
+
+.top-2 {
+  top: 0.5rem;
+}
+
+.right-2 {
+  right: 0.5rem;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.nav-item,
+.navbar {
+  z-index: 10000;
+}
+
+.bg-half-transparent {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.w-screen {
+  width: 100vw;
+}
+
+.right-0 {
+  right: 0px;
+}
+
+.top-0 {
+  top: 0px;
+}
+
+.bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.w-400 {
+  width: 400px;
+}
+
+.h-screen {
+  height: 100vh;
+}
+
+.float-right {
+  float: right;
+}
+
+.mt-24 {
+  margin-top: 6rem;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.flex {
+  display: flex;
+}
+
+.pt-9 {
+  padding-top: 2.25rem;
+}
+
+.p-8 {
+  padding: 2rem;
+}
+
+.bg-no-repeat {
+  background-repeat: no-repeat;
+}
+
+.bg-center {
+  background-position: center;
+}
+
+/*-----------------------------------*\
+#REUSABLE CSS CLASSES
+\*-----------------------------------*/
+
+.bg-cover {
+  background-size: cover;
+}
+
+.m-3 {
+  margin: 0.75rem;
+}
+
+.min-h-screen {
+  min-height: 100vh;
+}
+
+.p-4 {
+  padding: 1rem;
+}
+
+.ml-4 {
+  margin-left: 1rem;
+}
+
+.font-semibold {
+  font-weight: 600;
+}
+
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+.border-t-1 {
+  border-top-width: 1px;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.mt-2 {
+  margin-top: 0.5rem;
+}
+
+.gap-3 {
+  gap: 0.75rem;
+} 

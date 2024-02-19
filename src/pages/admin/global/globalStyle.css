@@ -1,0 +1,171 @@
+#topbar {
+  width: 79.86%;
+  height: 80px;
+  position: fixed;
+  padding-top: 10px;
+}
+
+#headerSpacer {
+  height: 80px;
+}
+
+#sidebarContainer {
+  width: 20.14%;
+  height: 100vh;
+  position: fixed;
+  z-index: 100;
+  background: white;
+}
+
+#sideLogo {
+  width: 100%;
+  scale: 120%;
+  height: fit-content;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 60px;
+}
+
+#sidebarContainer a,
+#bottomSidecontainer > div > button {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.02em;
+  color: #a3aed0;
+  text-decoration: none;
+}
+
+#sideNavigation ul {
+  width: 88%;
+  padding: 0;
+}
+#sideNavigation li,
+#bottomSidecontainer > div > button {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  margin: 13px 0;
+  gap: 10px;
+  position: relative;
+}
+#sideNavigation {
+  display: flex;
+}
+#sideNavSpacer {
+  width: 12%;
+}
+
+#activeLink a {
+  color: #2b3674;
+}
+#activeLink img {
+  filter: brightness(0) saturate(100%) invert(17%) sepia(38%) saturate(1969%)
+    hue-rotate(205deg) brightness(103%) contrast(90%);
+}
+#activeLink > div {
+  position: absolute;
+  right: 0;
+  width: 4px;
+  height: 100%;
+  background: #2b6777;
+  border-radius: 25px;
+}
+#bottomSidecontainer > div > button:hover {
+  cursor: pointer;
+  filter: brightness(0) saturate(100%) invert(17%) sepia(38%) saturate(1969%)
+    hue-rotate(205deg) brightness(103%) contrast(90%);
+}
+#bottomSidecontainer {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+}
+
+#topbar {
+  display: flex;
+  align-items: center;
+  z-index: 20;
+}
+
+#topbarInput {
+  display: flex;
+  align-items: center;
+  width: 366px;
+  height: 53px;
+  background: rgba(65, 59, 59, 0.08);
+  border-radius: 16px;
+  border: none;
+  padding: 0 10px;
+  margin-left: 3.5%;
+}
+
+#topbarInput > input {
+  height: 100%;
+  border: none;
+  background: none;
+  width: 75%;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #545454;
+}
+#topbarInput > input::placeholder {
+  color: white;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #545454;
+}
+
+#topbarInput > img {
+  margin: 0 20px;
+}
+#topbarOptions {
+  position: absolute;
+  right: 4%;
+  display: flex;
+}
+#topbar #adminInfo {
+  display: flex;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: -0.009em;
+  color: #2e2e3a;
+  margin-left: 15px;
+  justify-content: center;
+  align-items: start;
+}
+#adminInfo {
+  align-items: center !important;
+  justify-content: center !important;
+}
+#topbar #adminInfo img {
+  margin-right: 10px;
+  height: 40px;
+  width: 40px;
+  border-radius: 100%;
+}
+#topbarOptions button {
+  margin: 0 10px;
+}
+#topbarOptions button:hover {
+  cursor: pointer;
+  filter: brightness(0) saturate(100%) invert(17%) sepia(38%) saturate(1969%)
+    hue-rotate(205deg) brightness(103%) contrast(90%);
+}
+input[type=checkbox]:hover{
+  cursor: pointer;
+}
